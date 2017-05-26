@@ -1,0 +1,66 @@
+html {
+  text-align:center;
+}
+h1 {
+  color: #B0C4DE;
+  font-family: 'Barrio', cursive;
+}
+
+#muchisimo {
+  color:#829db0;
+}
+
+.frutas {
+  color:#95acaf;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.lista {
+  color:#33001a;
+  font-family: 'Anton', sans-serif;
+}
+
+.contenido {
+  color:#6d7872;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#kiwi {
+  color:black;
+  font-family: 'Indie Flower', cursive;
+}
+
+.title {
+  color:#293d3d;
+  font-family: 'Anton', sans-serif;
+  font-size:200%;
+}
+
+#favorito {
+  color:#4d3234;
+  font-family: 'Indie Flower', cursive;
+
+}
+ 
+ #table {
+  margin:0 auto;
+ }
+
+ #columnas {
+  color:#000000;
+  font-family: 'Julius Sans One', sans-serif;
+
+ }
+
+ #filas {
+  color:#00000;
+  font-family: 'Cutive Mono', monospace;
+ }
+
+ .music {
+  font-family: 'Barrio', cursive;
+ }
+
+ ul, ol {
+  list-style-position: inside; 
+ }

@@ -3,53 +3,56 @@
 <head>
   <meta charset="utf-8">
   <title>Aprendiendo HTML</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Barrio|Cutive+Mono|Indie+Flower|Julius+Sans+One|Yanone+Kaffeesatz" rel="stylesheet">
 </head>
 <body>
   <img src="https://static1.squarespace.com/static/547d6516e4b03545c8a81644/5526f05de4b040833ba23c80/55276416e4b0bfc7b23bb4c8/1428644888184/hola.png" border="0" width="500" height="350"> 
 </br>
   <h1>Me gustan las frutas</h1>
-  <h1> <strong>!Muchísimo!</strong> </h1>
+  <h1 id="muchisimo"><strong>!Muchísimo!</strong> </h1>
 </br>
-  <h2>Uvas</h2>
-  <h2>Peras</h2>
-  <h2>Manzanas</h2>
-  <h2>fresas</h2>
+
+  <h2 class="frutas">Uvas</h2>
+  <h2 class="frutas">Peras</h2>
+  <h2 class="frutas">Manzanas</h2>
+  <h2 class="frutas">fresas</h2>
   <br/>
-  <h4>También el <em>kiwi</em> me gusta, pero me <em>escalda</em> la lengua</h4>
+  <h4 id="kiwi">También el <em>kiwi</em> me gusta, pero me <em>escalda</em> la lengua. Ahora hablemos de los tipos de datos!</h4>
   <br/>
-  <h3>String</h3>
+  <h3 class="title">String</h3>
   <p>Los <em><strong>strings</strong></em> son una cadena de caracteres</p>
-  <h3>Array</h3>
+  <h3 class="title">Array</h3>
   <p>Los <em><strong>Array</strong></em> son para almacenar cadenas de caracteres</p>
-  <h3>Symbols</h3>
+  <h3 class="title">Symbols</h3>
   <p>Los <em><strong>symbols</strong></em> son como un tipo de string, pero se guarda diferente en la memoria (esto nos han dicho hasta ahora)</p>
   <br/>
-  <p>Mi tipo de <strong>dato</strong> favorito son los <em>Array</em></p>
+  <p id="favorito">Mi tipo de <strong>dato</strong> favorito son los <em>Array</em></p>
   <br/>
   <h1>Tipos de datos</h1>
     <ol>
-      <li>String</li>
+      <li class="lista">String</li>
        <ul>
-        <li>"Hola Mundo"</li>
-        <li>"Codear"</li>
+        <li class="contenido">"Hola Mundo"</li>
+        <li class="contenido">"Codear"</li>
        </ul>   
-      <li>Array</li>
+      <li class="lista">Array</li>
        <ul>
-        <li>[1, 3]</li>
-        <li>["Codear", "Codeando"]</li>
+        <li class="contenido">[1, 3]</li>
+        <li class="contenido">["Codear", "Codeando"]</li>
        </ul> 
     </ol>
     <br/>
     <p>Se supone que tengo que agregar <em><strong>Links</strong></em> de algo que me guste...</p>  
-    <p>Estos son de música rarísima:<p>
+    <p>Estos son de música <strong>rarísima:</strong><p>
     <ol>
-     <li><a href="https://www.youtube.com/watch?v=tZEE1SLC_9o">The Murlocs</a></li>
-  <img src="https://f4.bcbits.com/img/a2335027074_10.jpg" border="0" width="500" height="250">
-     <li><a href="https://www.youtube.com/watch?v=Teyy1A_AJso">Conan Mockasin</a></li>
+     <li class="music"><a href="https://www.youtube.com/watch?v=tZEE1SLC_9o">The Murlocs</a></li>
+      <img src="https://f4.bcbits.com/img/a2335027074_10.jpg" border="0" width="250" height="250">
+     <li class="music"><a href="https://www.youtube.com/watch?v=Teyy1A_AJso">Conan Mockasin</a></li>
   <img src="http://images.junostatic.com/full/CS428776-01A-BIG.jpg" border="0" width"500" height="250">
     </ol>
-    <table>
-      <thead>
+    <table id="table">
+      <thead id="columnas">
         <tr>
           <th>NOMBRE</th>
           <th>EMAIL</th>
@@ -58,7 +61,7 @@
           <th>FOTO</th>
         </tr>
           </thead>
-          <tbody>
+          <tbody id="filas">
             <tr>
               <td>Connan Mockasin</td>
               <td>conan@gmail.com</td>
